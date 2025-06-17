@@ -1,4 +1,20 @@
-17 June 2025
+
+Project: SEMentor Room Booking Assistant
+
+File	Description
+app2.py	Main Flask app handling booking, cancellation, queries, and integration with the LLM.
+db.py	Sets up MongoDB client and exposes bookings and employees collections.
+models.py	Contains static room data and is_valid_room() for capacity validation.
+utils.py	Provides helper functions like get_embedding() and is_purpose_similar() using embeddings.
+insert.py	Script to insert dummy employee records into the employees MongoDB collection.
+requirements.txt	Lists Python dependencies for the application.
+README.md 	Project overview, setup instructions, and API usage guide (to be added if not present).
+
+
+
+
+
+17 June 2025 log:
 
 📄 SEMentor Room Booking Application – Development Log (2025-06-17)
 

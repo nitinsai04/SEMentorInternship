@@ -1,0 +1,92 @@
+[
+  {
+    "employee_id": "EMP1001",
+    "name": "Nitin Sai",
+    "email": "nitin.sai@sementor.com",
+    "department": "Engineering",
+    "designation": "Software Engineer",
+    "password": "pass1234",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1002",
+    "name": "Meera Raj",
+    "email": "meera.raj@sementor.com",
+    "department": "Product",
+    "designation": "Product Manager",
+    "password": "secure456",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1003",
+    "name": "Aditya Kumar",
+    "email": "aditya.kumar@sementor.com",
+    "department": "DevOps",
+    "designation": "DevOps Engineer",
+    "password": "devops789",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1004",
+    "name": "Sneha Pillai",
+    "email": "sneha.pillai@sementor.com",
+    "department": "UX",
+    "designation": "UX Designer",
+    "password": "design321",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1005",
+    "name": "Karan Menon",
+    "email": "karan.menon@sementor.com",
+    "department": "Security",
+    "designation": "Security Analyst",
+    "password": "karanSecure",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1006",
+    "name": "Anjali Nair",
+    "email": "anjali.nair@sementor.com",
+    "department": "QA",
+    "designation": "Test Engineer",
+    "password": "qa123",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1007",
+    "name": "Rahul Bose",
+    "email": "rahul.bose@sementor.com",
+    "department": "Data Science",
+    "designation": "Data Analyst",
+    "password": "data456",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1008",
+    "name": "Priya Ramesh",
+    "email": "priya.ramesh@sementor.com",
+    "department": "AI/ML",
+    "designation": "ML Engineer",
+    "password": "mlPower",
+    "is_admin": false
+  },
+  {
+    "employee_id": "EMP1009",
+    "name": "Vikram Singh",
+    "email": "vikram.singh@sementor.com",
+    "department": "Backend",
+    "designation": "API Developer",
+    "password": "apiWorks",
+    "is_admin": false
+  },
+  {
+    "employee_id": "ADMIN0001",
+    "name": "Admin User",
+    "email": "admin@sementor.com",
+    "department": "Admin",
+    "designation": "System Admin",
+    "password": "adminAccess",
+    "is_admin": true
+  }
+]

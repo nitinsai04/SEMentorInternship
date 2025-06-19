@@ -1,6 +1,6 @@
 17 June 2025
 
-📄 SEMentor Room Booking Application – Development Log (2025-06-17)
+📄 SEMentor Room Booking Portal
 
 System Capabilities Implemented:
 

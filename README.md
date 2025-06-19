@@ -31,8 +31,8 @@ Testing Summary:
 	•	✔ Admin override functions correctly
 	•	✔ Cancellation deletes records from MongoDB
 	•	✔ Partial time overlaps blocked
-	•	✔ “Show my bookings” and “What rooms are free?” work as expected
-	•	✔ Rejected:
+	•	✔ “Show my bookings” "Cancel my bookings" work as expected
+	•	✔ No overlapping between bookings 
 	•	Invalid EMP IDs (e.g., EMP9999)
 	•	Unauthorized access
 	•	Overlapping with unmatched purposes (non-admins)
@@ -40,10 +40,10 @@ Testing Summary:
 ⸻
 
 Outstanding / Deferred:
-	•	User login flow (uses password) to be added in frontend
+	
 	•	Rate limiting is not currently enforced
 	•	Modifying bookings handled as cancel + book
-	•	No push to GitHub yet (local progress only)
+	
 
 ⸻
 

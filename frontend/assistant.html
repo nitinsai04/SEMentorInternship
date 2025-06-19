@@ -1,0 +1,21 @@
+<!-- assistant.html -->
+<textarea id="userPrompt" placeholder="Ask me something..."></textarea>
+<button onclick="askAssistant()">Ask</button>
+<pre id="assistantResponse"></pre>
+
+<script>
+  async function askAssistant() {
+    const empId = localStorage.getItem("employee_id");
+    const prompt = document.getElementById("userPrompt").value;
+    const fullPrompt = prompt.includes("My ID") ? prompt : `${prompt} My ID is ${empId}.`;
+
+    const res = await fetch("http://127.0.0.1:5000/assistant", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt: fullPrompt })
+    });
+
+    const data = await res.json();
+    document.getElementById("assistantResponse").textContent = JSON.stringify(data, null, 2);
+  }
+</script>

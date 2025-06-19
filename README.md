@@ -4,17 +4,15 @@
 
 System Capabilities Implemented:
 
-Feature	Status	Details
+Feature	Status					Details
 Natural language booking interface	✅	Single /assistant endpoint using LLM for parsing
 Employee ID verification	✅	Validates format and existence from employees collection
 Admin override	✅	Allows admins to bypass purpose conflict restrictions
 Time overlap detection	✅	Detects partial and full overlaps
-Purpose similarity check	✅	Uses embedding-based semantic similarity
 Slot normalization	✅	Time ranges standardized to 12-hour format
 Booking storage	✅	Bookings stored with metadata and embeddings
 Cancellation support	✅	Deletes bookings based on ID, date, and time
 View my bookings	✅	Filters bookings by employee_id
-Available room query	✅	Returns list of free rooms for a given time slot
 Unauthorized user handling	✅	Rejects bookings from unregistered employees
 
 
